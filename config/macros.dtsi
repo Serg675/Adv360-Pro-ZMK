@@ -1,57 +1,59 @@
+  macro_cim1: macro_cim1{
+    compatible = "zmk,behavior-macro";
+    label = "macro_cim1";
+    #binding-cells = <0>;
+    bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp N0>, <&kp N1>;
+  };  
+  
   macro_cim2: macro_cim2{
     compatible = "zmk,behavior-macro";
     label = "macro_cim2";
     #binding-cells = <0>;
     bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp AT>, <&kp N6>, <&kp N7>, <&kp N5>;
   };
-  macro_cim1: macro_cim1{
-    compatible = "zmk,behavior-macro";
-    label = "macro_cim1";
-    #binding-cells = <0>;
-    bindings = <&kp LS(C)>, <&kp I>, <&kp M>, <&kp E>, <&kp T>, <&kp R>, <&kp I>, <&kp X>, <&kp N0>, <&kp N1>;
-  };
+  
   macro_lambda: macro_lambda{
     compatible = "zmk,behavior-macro";
     label = "macro_lambda";
     #binding-cells = <0>;
     bindings = <&kp LPAR>, <&kp RPAR>, <&kp EQUAL>, <&kp GT>;
-  };  
+  };
+  
   macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
     #binding-cells = <0>;
     bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
   };
+  
   macro_dquotes: macro_dquotes {
     compatible = "zmk,behavior-macro";
     label = "macro_dquotes";
     #binding-cells = <0>;
     bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
   };
+  
   macro_braces: macro_braces {
     compatible = "zmk,behavior-macro";
     label = "macro_braces";
     #binding-cells = <0>;
     bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
   };
+  
   macro_parens: macro_parens {
     compatible = "zmk,behavior-macro";
     label = "macro_parens";
     #binding-cells = <0>;
     bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
   };
+  
   macro_brackets: macro_brackets {
     compatible = "zmk,behavior-macro";
     label = "macro_brackets";
     #binding-cells = <0>;
     bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
   };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+
   Win_Cut: Windows_Cut {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -71,13 +73,6 @@
     #binding-cells = <0>;
     bindings = <&kp LC(V)>;
     display-name = "Windows Paste";
-  };
-
-  Win_Select_All: Windows_SelectAll {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp LC(A)>;
-      display-name = "Windows Select All";
   };
 
   Win_Undo: Windows_Undo {
@@ -101,13 +96,6 @@
     display-name = "Windows Desktop";
   };
 
-  Win_File_Explorer: Win_Explr {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp LG(E)>;
-    display-name = "Windows Explorer";
-  };
-
   Win_Snip_Tool: Win_Snip {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
@@ -115,21 +103,7 @@
     display-name = "Windows Screen Snip";
   };
 
-  Win_Show_All_Windows: Win_ShowAW {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp LG(TAB)>;
-    display-name = "Windows Show All Windows";
-  };
-
-  Win_Close_Program: Win_Close_Program {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&kp LA(F4)>;
-    display-name = "Windows Close";
-  };
-
-  Win_Settings_Menu: Win_Settings_Menu {
+  Win_Settings: Win_Settings_Menu {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
     bindings = <&kp LG(I)>;
