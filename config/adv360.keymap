@@ -50,7 +50,7 @@
       bindings = <
         &kp F1         &kp F2                &kp F3       &kp F4       &kp F5       &kp F6        &tog 1                                                   &mo 3           &kp F7        &kp F8       &kp F9            &kp F10       &kp F11         &kp F12
         &kp LG(TAB)    &macro_cim1           &macro_cim2  &trans       &kp LC(P)    &trans        &macro_parens                                            &macro_brackets &macro_lambda &trans       &kp LA(F4)        &trans        &Win_Lock_PC    &trans
-        &trans         &Win_Show_All_Windows &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans       &trans            &trans        &Win_Snip_Tool  &trans
+        &trans         &trans                &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans       &trans            &trans        &Win_Snip_Tool  &trans
         &trans         &trans                &trans       &trans       &trans       &kp LG(X)                               &trans   &trans                                &trans        &kp LG(M)    &trans            &trans        &trans          &trans
         &trans         &trans                &trans       &trans       &trans       &trans        &trans                    &trans   &trans                &trans          &trans        &kp C_VOL_UP &kp C_VOLUME_DOWN &trans        &trans          &trans
       >;
