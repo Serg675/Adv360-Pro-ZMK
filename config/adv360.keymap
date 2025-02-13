@@ -38,7 +38,7 @@
     keypad {
       display-name = "Kp";
       bindings = <
-        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &tog 0                                                   &mo 3          &kp N6         &kp KP_NUM   &kp KP_EQUAL      &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
+        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &trans                                                   &mo 3          &kp N6         &kp KP_NUM   &kp KP_EQUAL      &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB        &kp SQT               &kp COMMA    &kp DOT      &kp P        &kp Y         &trans                                                   &trans         &kp Y          &kp KP_N7    &kp KP_N8         &kp KP_N9     &kp KP_MINUS    &kp BSLH
         &kp ESC        &kp A                 &kp O        &kp E        &kp U        &kp I         &trans          &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL   &Win_Redo      &kp H          &kp KP_N4    &kp KP_N5         &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT      &kp SEMI              &kp Q        &kp J        &kp K        &kp X                                   &kp HOME &kp PG_UP                            &kp N          &kp KP_N1    &kp KP_N2         &kp KP_N3     &kp KP_ENTER    &kp RSHFT
@@ -49,9 +49,9 @@
       display-name = "Fn";
       bindings = <
         &kp F1         &kp F2                &kp F3       &kp F4       &kp F5       &kp F6        &tog 1                                                   &mo 3           &kp F7        &kp F8       &kp F9            &kp F10       &kp F11         &kp F12
-        &kp LG(TAB)    &macro_cim1           &macro_cim2  &trans       &kp LC(P)    &trans        &macro_parens                                            &macro_brackets &macro_lambda &trans       &kp LA(F4)        &trans        &Win_Lock_PC    &trans
-        &trans         &trans                &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans       &trans            &trans        &Win_Snip_Tool  &trans
-        &trans         &trans                &trans       &trans       &trans       &kp LG(X)                               &trans   &trans                                &trans        &kp LG(M)    &trans            &trans        &trans          &trans
+        &kp LG(TAB)    &macro_cim1           &macro_cim2  &trans       &kp LC(P)    &trans        &macro_parens                                            &macro_brackets &macro_lambda &trans       &kp LA(F4)        &kp LG(R)     &Win_Lock_PC    &trans
+        &trans         &kp LG(A)             &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans       &trans            &kp LG(N)     &Win_Snip_Tool  &trans
+        &trans         &trans                &trans       &trans       &trans       &kp LG(X)                               &trans   &trans                                &trans        &kp LG(M)    &kp LG(W)         &trans        &p LG(Z)        &trans
         &trans         &trans                &trans       &trans       &trans       &trans        &trans                    &trans   &trans                &trans          &trans        &kp C_VOL_UP &kp C_VOLUME_DOWN &trans        &trans          &trans
       >;
     };
@@ -71,7 +71,7 @@
     };
 
     extra2 { 
-      display-name = "Purple";    
+      display-name = "Purple";    r
       status = "reserved";
     };
 
