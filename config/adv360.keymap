@@ -28,41 +28,41 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &tog 1                                                   &mo 3          &kp N6         &kp N7     &kp N8        &kp N9         &kp N0          &kp MINUS
-        &kp TAB        &kp SQT               &kp COMMA    &kp DOT      &kp P        &kp Y         &Win_Copy                                                &Win_Cut       &kp F          &kp G      &kp C         &kp R          &kp L           &kp FSLH
-        &kp ESC        &kp A                 &kp O        &kp E        &kp U        &kp I         &Win_Paste      &kp LCTRL &kp LALT &kp RALT  &kp RCTRL   &Win_Undo      &kp D          &kp H      &kp T         &kp N          &kp S           &kp BSLH
-        &kp LSHFT      &kp SEMI              &kp Q        &kp J        &kp K        &kp X                                   &kp HOME &kp PG_UP                            &kp B          &kp M      &kp W         &kp V          &kp Z           &kp RSHFT
-        &mo 2          &kp GRAVE             &kp CAPS     &kp LEFT     &kp RIGHT    &kp BSPC      &kp DEL                   &kp END  &kp PG_DN             &kp ENTER      &kp SPACE      &kp UP     &kp DOWN      &kp LBKT       &kp RBKT        &mo 2
+        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &tog 1                                                   &mo 3          &kp N6         &kp N7       &kp N8            &kp N9        &kp N0          &kp MINUS
+        &kp TAB        &kp SQT               &kp COMMA    &kp DOT      &kp P        &kp Y         &Win_Copy                                                &Win_Cut       &kp F          &kp G        &kp C             &kp R         &kp L           &kp FSLH
+        &kp ESC        &kp A                 &kp O        &kp E        &kp U        &kp I         &Win_Paste      &kp LCTRL &kp LALT &kp RALT  &kp RCTRL   &Win_Undo      &kp D          &kp H        &kp T             &kp N         &kp S           &kp BSLH
+        &kp LSHFT      &kp SEMI              &kp Q        &kp J        &kp K        &kp X                                   &kp HOME &kp PG_UP                            &kp B          &kp M        &kp W             &kp V         &kp Z           &kp RSHFT
+        &mo 2          &kp GRAVE             &kp CAPS     &kp LEFT     &kp RIGHT    &kp BSPC      &kp DEL                   &kp END  &kp PG_DN             &kp ENTER      &kp SPACE      &kp UP       &kp DOWN          &kp LBKT      &kp RBKT        &mo 2
       >;
     };
     keypad {
       display-name = "Kp";
       bindings = <
-        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &tog 0                                                   &mo 3          &kp N6         &kp KP_NUM &kp KP_EQUAL   &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
-        &kp TAB        &kp SQT               &kp COMMA    &kp DOT      &kp P        &kp Y         &trans                                                   &trans         &kp Y          &kp KP_N7  &kp KP_N8      &kp KP_N9     &kp KP_MINUS    &kp BSLH
-        &kp ESC        &kp A                 &kp O        &kp E        &kp U        &kp I         &trans          &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL   &Win_Redo      &kp H          &kp KP_N4  &kp KP_N5      &kp KP_N6     &kp KP_PLUS     &kp SQT
-        &kp LSHFT      &kp SEMI              &kp Q        &kp J        &kp K        &kp X                                   &kp HOME &kp PG_UP                            &kp N          &kp KP_N1  &kp KP_N2      &kp KP_N3     &kp KP_ENTER    &kp RSHFT
-        &mo 2          &kp GRAVE             &kp CAPS     &kp LEFT     &kp RIGHT    &kp BSPC      &kp DEL                   &kp END  &kp PG_DN             &kp ENTER      &kp KP_N0      &kp UP     &kp DOWN       &kp KP_DOT    &kp RBKT        &mo 2
+        &kp EQUAL      &kp N1                &kp N2       &kp N3       &kp N4       &kp N5        &tog 0                                                   &mo 3          &kp N6         &kp KP_NUM   &kp KP_EQUAL      &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
+        &kp TAB        &kp SQT               &kp COMMA    &kp DOT      &kp P        &kp Y         &trans                                                   &trans         &kp Y          &kp KP_N7    &kp KP_N8         &kp KP_N9     &kp KP_MINUS    &kp BSLH
+        &kp ESC        &kp A                 &kp O        &kp E        &kp U        &kp I         &trans          &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL   &Win_Redo      &kp H          &kp KP_N4    &kp KP_N5         &kp KP_N6     &kp KP_PLUS     &kp SQT
+        &kp LSHFT      &kp SEMI              &kp Q        &kp J        &kp K        &kp X                                   &kp HOME &kp PG_UP                            &kp N          &kp KP_N1    &kp KP_N2         &kp KP_N3     &kp KP_ENTER    &kp RSHFT
+        &mo 2          &kp GRAVE             &kp CAPS     &kp LEFT     &kp RIGHT    &kp BSPC      &kp DEL                   &kp END  &kp PG_DN             &kp ENTER      &kp KP_N0      &kp UP       &kp DOWN          &kp KP_DOT    &kp RBKT        &mo 2
       >;
     };
     fn {
       display-name = "Fn";
       bindings = <
-        &kp F1         &kp F2                &kp F3       &kp F4       &kp F5       &kp F6        &tog 1                                                   &mo 3           &kp F7        &kp F8     &kp F9         &kp F10       &kp F11         &kp F12
-        &kp LG(TAB)    &macro_cim1           &macro_cim2  &trans       &kp LC(P)    &trans        &macro_parens                                            &macro_brackets &macro_lambda &trans     &kp LA(F4)     &trans        &Win_Lock_PC    &trans
-        &trans         &Win_Show_All_Windows &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans     &trans         &trans        &Win_Snip_Tool  &trans
-        &trans         &trans                &trans       &trans       &trans       &kp LG(X)                               &trans   &trans                                &trans        &kp LG(M)  &trans         &trans        &trans          &trans
-        &trans         &trans                &trans       &trans       &trans       &trans        &trans                    &trans   &trans                &trans          &trans        &C_VOL_UP  &C_VOLUME_DOWN &trans        &trans          &trans
+        &kp F1         &kp F2                &kp F3       &kp F4       &kp F5       &kp F6        &tog 1                                                   &mo 3           &kp F7        &kp F8       &kp F9            &kp F10       &kp F11         &kp F12
+        &kp LG(TAB)    &macro_cim1           &macro_cim2  &trans       &kp LC(P)    &trans        &macro_parens                                            &macro_brackets &macro_lambda &trans       &kp LA(F4)        &trans        &Win_Lock_PC    &trans
+        &trans         &Win_Show_All_Windows &trans       &kp LG(E)    &trans       &Win_Settings &macro_braces   &trans    &trans   &trans    &trans      &macro_dquotes  &macro_quotes &trans       &trans            &trans        &Win_Snip_Tool  &trans
+        &trans         &trans                &trans       &trans       &trans       &kp LG(X)                               &trans   &trans                                &trans        &kp LG(M)    &trans            &trans        &trans          &trans
+        &trans         &trans                &trans       &trans       &trans       &trans        &trans                    &trans   &trans                &trans          &trans        &kp C_VOL_UP &kp C_VOLUME_DOWN &trans        &trans          &trans
       >;
     };
     mod {
       display-name = "Mod";
       bindings = <
-        &none          &bt BT_SEL 0          &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none                                                    &trans          &none         &none       &none          &none        &none           &none
-        &none          &none                 &none        &none        &none        &none         &bootloader                                              &bootloader     &none         &none       &none          &none        &none           &none
-        &studio_unlock &none                 &none        &none        &none        &none         &none           &none     &none    &bt BT_CLR &none      &stp STP_BAT    &none         &none       &none          &none        &none           &none
-        &none          &none                 &none        &none        &macro_ver   &none                                   &none    &none                                 &none         &none       &none          &macro_ver   &none           &none
-        &none          &none                 &none        &none        &none        &none         &none           &none     &none    &bl BL_TOG            &rgb_ug RGB_TOG               &bl BL_INC  &bl BL_DEC     &none        &none           &none
+        &none          &bt BT_SEL 0          &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4  &none                                                    &trans          &none         &none        &none             &none         &none           &none
+        &none          &none                 &none        &none        &none        &none         &bootloader                                              &bootloader     &none         &none        &none             &none         &none           &none
+        &studio_unlock &none                 &none        &none        &none        &none         &none           &none     &none    &bt BT_CLR &none      &stp STP_BAT    &none         &none        &none             &none         &none           &none
+        &none          &none                 &none        &none        &macro_ver   &none                                   &none    &none                                 &none         &none        &none             &macro_ver    &none           &none
+        &none          &none                 &none        &none        &none        &none         &none           &none     &none    &bl BL_TOG            &rgb_ug RGB_TOG               &bl BL_INC   &bl BL_DEC        &none         &none           &none
       >;
     };
     extra1 { 
